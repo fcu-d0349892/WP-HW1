@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>註冊</title>
+	</head>
+
+	<body>
+		<h1>使用者註冊</h1>
+
+		
+		<form method="POST" action="">
+			<table border="0">
+				<tr>
+					<td>帳號</td>
+					<td><input type="text" name="account" placeholder="請輸入你的帳號"></td>
+				</tr>
+				<tr>
+					<td>密碼</td>
+					<td><input type="password" name="password" placeholder="請輸入你的密碼"></td>
+				</tr>
+				<tr>
+					<td>電子郵件</td>
+					<td><input type="email" name="email" placeholder="請輸入你的電子郵件"></td>
+				</tr>
+				<tr>
+					<td>生日</td>
+					<td>
+						<input type="date" name="birthday" placeholder="年/月/日">
+					</td>
+				</tr>
+				<tr>
+					<td>性別</td>
+					<td>
+						<input type="radio" name="sexuality" value="男"> 男
+						<input type="radio" name="sexuality" value="女"> 女
+						<input type="radio" name="sexuality" value="其他"> 其他
+					</td>
+				</tr>
+				<tr>
+					<td>喜好</td>
+					<td>
+						<input type="checkbox" name="hobby" value="打球"> 打球
+						<input type="checkbox" name="hobby" value="打電動"> 打電動
+						<input type="checkbox" name="hobby" value="購物"> 購物
+						<input type="checkbox" name="hobby" value="其他"> 其他
+					</td>
+				</tr>
+				<tr>
+					<td>年級</td>
+					<td>
+						<select name="年級">
+							<option>大一</option>
+							<option>大二</option>
+							<option>大三</option>
+							<option>大四</option>
+							<option>其他</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" name="送出"><input type="reset" name="重設"></td>
+				</tr>
+			</table>
+		</form>
+
+		
+	</body>
+</html>
+
